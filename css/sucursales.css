@@ -1,0 +1,150 @@
+body {
+    background-color: #032820;
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagenes/fondo.png);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+.nav {
+    text-align: center;
+    background-color: black;
+    padding: 10px 0;
+}
+
+.nav nav {
+    display: inline-block;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.title{
+    margin-top: 3%;
+    text-align: center;
+}
+.maps-subtitle{
+    margin-left: 5%;
+}
+.maps-google{
+    text-align: center;
+    margin-top: 4%;
+    margin: 50px;
+}
+
+.button-sumate{
+    background-color: #720505;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+footer {
+    margin-top: 8.5%;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+footer .redes {
+    margin-bottom: 10px;
+}
+
+footer .redes a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    margin-top: 3%;
+
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.button-cv{
+    background-color: #cf0d0d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.container-error404{
+    margin-top: 15%;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #7c0f0f;
+}
+
+.error-title{
+    font-size: 48px;
+}
+.error-p{
+    font-size: 24px;
+}

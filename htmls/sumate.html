@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumate</title>
+    <link rel="stylesheet" href="../css/sucursales.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../imagenes/sucursales/icon.png">
+</head>
+<body>
+
+    <div class="nav">
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../htmls/productos.html">Productos</a>
+            <a href="../htmls/promociones.html">Promociones</a>
+            <a href="../htmls/sucursales.html">Sucursales</a>
+            <a href="../htmls/vegetariana.html">Menú Vegetariano</a>
+        </nav>
+    </div>
+
+    <div class="wrapper">
+        <div class="container">
+            <h1>Enviar CV</h1>
+    
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required maxlength="50">
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required maxlength="50">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required maxlength="20">
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" pattern="[0-9]+" title="Solo se permiten números" required>
+                </div>
+                <div class="form-group">
+                    <label for="cv">Adjuntar CV:</label>
+                    <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" maxlength="150"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" onclick="window.location.href='../htmls/error404.html'" class="button-cv">Enviar CV</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="redes">
+            <a href="https://www.facebook.com/McDonaldsArgentina" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://chat.whatsapp.com/Br0NBpza0CmDY9owwqTgur" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.instagram.com/mcdonalds_ar/?hl=es-la" target="_blank"><i class="bi bi-instagram"></i></a>
+        </div>
+        <div class="copyright">
+            <p> Terminos y Condiciones <i class="bi bi-c-circle"></i> XD</p>
+        </div>
+    </footer>
+</body>
+</html>
