@@ -25,7 +25,7 @@
         <div class="container">
             <h1>Enviar CV</h1>
     
-            <form>
+            <form action="../htmls/show_data.html" method="GET">
                 <div class="form-group">
                     <label for="nombre">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" required maxlength="50">
@@ -51,7 +51,7 @@
                     <textarea id="mensaje" name="mensaje" rows="4" maxlength="150"></textarea>
                 </div>
                 <div class="form-group">
-                    <button type="submit" onclick="window.location.href='../htmls/error404.html'" class="button-cv">Enviar CV</button>
+                    <button type="submit" class="button-cv">Enviar CV</button>
                 </div>
             </form>
         </div>
@@ -67,5 +67,6 @@
             <p> Terminos y Condiciones <i class="bi bi-c-circle"></i> XD</p>
         </div>
     </footer>
+
 </body>
 </html>
