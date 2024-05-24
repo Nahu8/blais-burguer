@@ -29,8 +29,15 @@ html, body {
 
 
 .container-principal {
+    max-width: 100%;
+    height: auto;
     text-align: center;
-    margin-top: 20px;
+    margin: 40px;
+}
+
+.container-principal img {
+    height: 500px;
+    width: 800px;
 }
 
 .container-secundario {
@@ -38,26 +45,13 @@ html, body {
     margin-top: -35%;
 }
 
+.container-secundario img:hover {
+    transform: scale(1.05);
+  }
 
-.container-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    width: auto;
-    height: auto;
-}
 
-.img-principal {
-    max-width: 2083.6px;
-    height: 593px;
-}
-
-.img-productos {
-    height: 100%;
-    width: 100%;
-    background-color: #ddd;
-    text-align: end;
-    align-content: start;
+.texto-hamburguesa {
+    color:orange;
 }
 
 .img-burger-sin-fondo {
