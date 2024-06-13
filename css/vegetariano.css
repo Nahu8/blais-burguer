@@ -10,7 +10,6 @@ body {
     background-attachment: fixed;
 }
 
-
 .nav {
     background-color: #000;
     color: #fff;
@@ -71,20 +70,12 @@ body {
     padding: 20px;
     border: 2px solid green;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: transparent;
     transition: transform 0.3s;
 }
 
 .grid-item:hover {
     transform: scale(1.05);
-}
-
-.grid-item img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
 }
 
 .text {
@@ -156,14 +147,47 @@ body {
     font-size: 0.9rem;
 }
 
-.prod-1{
-    margin-top: 20%;
+.prod-img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-.prod-2{
-    margin-top: 35%;
+.card {
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.prod-3{
-    margin-top: -10%;
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3cca48;
+    color: rgb(0, 0, 0);
+}
+
+.card-2{
+    margin-top: 19%;
 }

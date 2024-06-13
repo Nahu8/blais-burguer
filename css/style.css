@@ -39,6 +39,7 @@ body {
     height: 20%;
     max-height: 10%;
     animation: slideUp 2s ease-in-out;
+
 }
 
 @keyframes slideUp {
