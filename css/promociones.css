@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     background-color: rgb(0, 0, 0);
@@ -20,7 +21,7 @@ html, body {
 
 .nav a:hover {
     background-color: #9b834e;
-    font-size: 1.1em; 
+    font-size: 1.1em;
 }
 
 .nav a {
@@ -53,16 +54,16 @@ html, body {
 }
 
 
-.contenedor-promos{
+.contenedor-promos {
     background-image: url(../imagenes/fondo.png);
 }
 
-.contenedor-promos>h1{
-    color:black;
+.contenedor-promos>h1 {
+    color: black;
     text-align: center;
 }
 
-.text-promos{
+.text-promos {
     text-align: center;
     color: black;
 }
@@ -75,31 +76,7 @@ html, body {
     height: auto;
 }
 
-footer {
-    background-color: black;
-    color: #fff;
-    padding: 10px 0 10px 0;
-    text-align: center;
-    position: relative;
-    width: 100%;
-}
 
-footer .redes {
-    margin-bottom: 10px;
-}
-
-footer .redes a {
-    color: #fff;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    margin: 40px 5px;
-    font-size: 20px;
-}
 
 
 button {
@@ -112,33 +89,34 @@ button {
     background-color: #7e7e10;
 }
 
-button:hover{
+button:hover {
     background-color: #4d4d01;
 }
 
 /* Imágenes del grid */
-.container-grid-promo img{
+.container-grid-promo img {
     border-radius: 4%;
 }
+
 /* pseudoclase imágenes del grid  */
-.container-grid-promo img:hover{
-    -webkit-transform:scale(1.1);
-    transform:scale(1.1);
+.container-grid-promo img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* ------------Media Querys--------- */
-@media (max-width: 600px){
-    .container-grid-promo{
+@media (max-width: 600px) {
+    .container-grid-promo {
         display: block;
         display: 100vw;
     }
 
-    .contenedor-promos{
-        width: 0,9em;
-    }   
+    .contenedor-promos {
+        width: 0, 9em;
+    }
 
-    .nav{
-        position: sticky; 
-        top: 0;    
+    .nav {
+        position: sticky;
+        top: 0;
     }
 }
