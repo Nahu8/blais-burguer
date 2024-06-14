@@ -1,101 +1,22 @@
 body {
-    background-color: #032820;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%), url(../imagenes/vegetariano/fondo-2.jpg);
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #d3c6c6;
-    margin: 0;
-    padding: 0;
     background-attachment: fixed;
 }
 
-.nav {
-    background-color: #000;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s, font-size 0.3s;
-}
-
-.nav a:hover {
-    background-color: #9b834e;
-    font-size: 1.2em; 
+nav a:hover {
+    background-color:  #9b834e !important;
+    border-radius: 10%;
+    font-size: 110%; 
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-}
-
-.header-vegetariano {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.img-principal-vegetariano {
-    width: 100%;
-    max-width: 600px;
-    border-radius: 10px;
-}
-
-.eslogan h2 {
-    margin: 20px 0 10px;
-    font-size: 2rem;
-}
-
-.eslogan p {
-    font-size: 1.2rem;
-}
-
-.container-grid-vegetariano {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.grid-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    border: 2px solid green;
-    border-radius: 20px;
-    background-color: transparent;
-    transition: transform 0.3s;
-}
-
-.grid-item:hover {
-    transform: scale(1.05);
-}
-
-.text {
-    text-align: center;
-}
-
-.text h1 {
-    margin-top: 0;
-    font-size: 1.5rem;
-}
-
-.text ul {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0;
-}
-
-.text p {
-    margin: 10px 0;
-    font-size: 1.2rem;
 }
 
 .button-vegano {
@@ -112,47 +33,6 @@ body {
     background-color: #2e9740;
 }
 
-.footer {
-    background-color: black;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer .redes {
-    margin-bottom: 10px;
-}
-
-.footer .redes a {
-    color: #fff;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    margin: 0 5px;
-    font-size: 20px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.footer .redes a:hover {
-    background-color: #fff;
-    color: #000;
-}
-
-.footer .copyright {
-    margin-top: 20px;
-    font-size: 0.9rem;
-}
-
-.prod-img {
-    height: 200px;
-    object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
 
 .card {
     background-color: transparent;
@@ -190,4 +70,20 @@ body {
 
 .card-2{
     margin-top: 19%;
+}
+
+.burguer-1{
+    height: 285px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.burguer-2{
+    height: 245px;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.burguer-3{
+    margin-top: 10px
 }
