@@ -6,7 +6,6 @@ body {
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-
 }
 
 .nav {
@@ -28,6 +27,7 @@ body {
     transition: background-color 0.3s;
 }
 
+/*
 .container {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -46,7 +46,6 @@ body {
     width: 100%;
     max-width: 300px;
     height: auto;
-
 }
 
 .producto h3 {
@@ -55,24 +54,5 @@ body {
 
 .producto ul {
     text-align: center;
-    padding-left: 0;
-
-}
-
-.producto ul li {
-    display: block;
-    margin: 5px auto;
-    width: max-content;
-    list-style: none;
-    color: black;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #5a1a12;
-    font-size: 20px;
-}
-
-.button-vegano {
-    background-color: #5a1a12;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
+    padding-left: 0
 }

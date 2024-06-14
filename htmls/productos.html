@@ -19,89 +19,151 @@
 
 <body>
 
-    <div class="nav">
-        <nav>
-            <a href="../index.html">Home</a>
-            <a href="../htmls/productos.html">Productos</a>
-            <a href="../htmls/promociones.html">Promociones</a>
-            <a href="../htmls/sucursales.html">Sucursales</a>
-            <a href="../htmls/vegetariana.html">Menú Vegetariano</a>
+    <header class="w-100">
+        <nav class="navbar navbar-expand-lg bg-black w-100 ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../imagenes/vegetariano/logo.png" alt="Logo" style="width: 60px; height: 60px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center " id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="/index.html">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUCTOS
+                            </a>
+                            <ul class="dropdown-menu bg-dark" style="color: white;">
+
+                                <li><a class="dropdown-item" href="/htmls/productos.html">Nuestros productos</a></li>
+                                <li><a class="dropdown-item" href="/htmls/promociones.html">Promociones</a></li>
+                                <li><a class="dropdown-item" href="/htmls/nuevoproducto.html">Nueva hamburguesa</a></li>
+                                <li><a class="dropdown-item" href="/htmls/vegetariana.html">Menu vegetariano</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">SUCURSALES</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="nav-link ms-auto" href="/htmls/error404.html">
+                    <i class="bi bi-cart3" style="font-size: 1.5rem;"></i>
+                </a>
+            </div>
         </nav>
-    </div>
+    </header>
 
-    <div class="container">
-        <div class="producto">
-            <img src="../imagenes/productos/img-1corte.png" alt="Producto 1">
-            <h3>Macnifica</h3>
-            <ul>
-                <li>Cheddar</li>
-                <li>Lechuga</li>
-                <li>Tomate</li>
-            </ul>
-            <button class="button-productos">Agregar al carrito</button>
-        </div>
-        <div class="producto">
-            <img src="../imagenes/productos/burger7.jpg" alt="Producto 2">
-            <h3>Big Mac</h3>
-            <ul>
-                <li>Carne XDE</li>
-                <li>Cheddar</li>
-                <li>Lechuga</li>
-                <li>Tomate</li>
-            </ul>
+    <main class="container mt-5">
 
-            <button class="button-productos">Agregar al carrito</button>
 
-        </div>
-        <div class="producto">
-            <img src="../imagenes/productos/img-3corte.jpg" alt="Producto 3">
-            <h3>Porción Nuggets</h3>
-            <ul>
-                <li>Carne XDI</li>
-                <li>Cheddar</li>
-                <li>Lechuga</li>
-                <li>Tomate</li>
-            </ul>
+        <section class="mt-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-lg border-0">
+                        <img src="../imagenes/productos/burger-pollo.jpg" class="card-img-top" alt="Hamburguesa 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Garbanzos Burguer</h5>
+                            <ul class="list-unstyled">
+                                <li><b>100G</b> Paty de Garbanzos</li>
+                                <li>Lechuga</li>
+                                <li>Pepino</li>
+                                <li>Pan de papa</li>
+                            </ul>
+                            <p class="card-text"><b>$6000</b></p>
+                            <button class="btn btn-outline-success">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
 
-            <button class="button-productos">Agregar al carrito</button>
+                <div class="col">
+                    <div class="card h-100 shadow-lg border-0">
+                        <img src="../imagenes/productos/burger3.jpg" class="card-img-top" alt="Hamburguesa 2">
+                        <div class="card-body text-center card-2">
+                            <h5 class="card-title"><b>Soya</b> Burguer</h5>
+                            <ul class="list-unstyled">
+                                <li><b>100G</b> Paty de Soya</li>
+                                <li>Lechuga</li>
+                                <li>Tomate</li>
+                                <li>Pan de ajo</li>
+                            </ul>
+                            <p class="card-text h4 text-black"><b>$5800</b></p>
+                            <button class="btn btn-outline-success">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
 
-        </div>
-        <div class="producto">
-            <img src="../imagenes/productos/burger-pollo.jpg" alt="Producto 4">
-            <h3>Chicken Deluxe</h3>
-            <ul>
-                <li>Pan</li>
-                <li>Pollo</li>
-                <li>Pan</li>
-            </ul>
-            <button class="button-productos">Agregar al carrito</button>
+                <div class="col">
+                    <div class="card h-100 shadow-lg border-0">
+                        <img src="../imagenes/productos/burger4.jpg" class="card-img-top" alt="Hamburguesa 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><b>LENTEJAS</b> Burguer</h5>
+                            <ul class="list-unstyled">
+                                <li><b>200G</b> Lentejas</li>
+                                <li>Espinacas frescas</li>
+                                <li>Cebolla morada</li>
+                                <li>Pimienta negra</li>
+                            </ul>
+                            <p class="card-text h4 text-black"><b>$9800</b></p>
+                            <button class="btn btn-outline-success">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
 
-        </div>
-        <div class="producto">
-            <img src="../imagenes/productos/burger3.jpg" alt="Producto 5">
-            <h3>Mega Clasico Deluxe</h3>
-            <ul>
-                <li>Carne POO</li>
-                <li>Cheddar</li>
-                <li>Lechuga</li>
-                <li>Tomate</li>
-            </ul>
-            <button class="button-productos">Agregar al carrito</button>
+                <div class="col">
+                    <div class="card h-100 shadow-lg border-0">
+                        <img src="../imagenes/productos/burger7.jpg" class="card-img-top" alt="Ensalada China">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-success"><b>Ensalada China</b></h5>
+                            <ul class="list-unstyled">
+                                <li><b>100 G</b> Arroz amarillo</li>
+                                <li><b>300 G</b> Verduras Salteadas</li>
+                            </ul>
+                            <p class="card-text h4 text-black"><b>$3200</b></p>
+                            <button class="btn btn-outline-success">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
 
-        </div>
-        <div class="producto">
-            <img src="../imagenes/productos/burger4.jpg" alt="Producto 6">
-            <h3>Mega Big Bang Cheddar</h3>
-            <ul>
-                <li>Carne IIU</li>
-                <li>Cheddar</li>
-                <li>Lechuga</li>
-                <li>Tomate</li>
-            </ul>
-            <button class="button-productos">Agregar al carrito</button>
+                <div class="col">
+                    <div class="card h-100 shadow-lg border-0">
+                        <img src="../imagenes/productos/img-1corte.png" class="card-img-top" alt="Ensalada Coreana">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-success"><b>Ensalada Coreana</b></h5>
+                            <ul class="list-unstyled">
+                                <li><b>120 G</b> Arroz taki</li>
+                                <li><b>300 G</b> Verduras Salteadas</li>
+                            </ul>
+                            <p class="card-text h4 text-black"><b>$3700</b></p>
+                            <button class="btn btn-outline-success">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
 
-        </div>
-    </div>
+                <div class="col">
+                    <div class="card h-100 shadow-lg border-0">
+                        <img src="../imagenes/productos/img-3corte.jpg" class="card-img-top" alt="Ensalada India">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-success"><b>Ensalada India</b></h5>
+                            <ul class="list-unstyled">
+                                <li><b>140 G</b> Arroz blanco</li>
+                                <li><b>300 G</b> Verduras Salteadas</li>
+                            </ul>
+                            <p class="card-text h4 text-black"><b>$3300</b></p>
+                            <button class="btn btn-outline-success">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
 
     <footer class="bg-black text-light pt-5 pb-4">
         <div class="container text-center text-md-start">
@@ -172,6 +234,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
