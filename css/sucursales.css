@@ -5,7 +5,7 @@ body {
     background-image: url(../imagenes/fondo.png);
     font-family: "Anton", sans-serif;
     font-weight: 400;
-    font-style: normal;   
+    font-style: normal;
 }
 
 .nav {
@@ -25,20 +25,23 @@ body {
     margin: 0 10px;
     border-radius: 5px;
 }
-.title{
+
+.title {
     margin-top: 3%;
     text-align: center;
 }
-.maps-subtitle{
+
+.maps-subtitle {
     margin-left: 5%;
 }
-.maps-google{
+
+.maps-google {
     text-align: center;
     margin-top: 4%;
     margin: 50px;
 }
 
-.button-sumate{
+.button-sumate {
     background-color: #720505;
     border: none;
     border-radius: 5px;
@@ -47,38 +50,14 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-footer {
-    margin-top: 8.5%;
-    background-color: black;
-    color: #fff;
-    padding: 10px 0 10px 0;
-    text-align: center;
-    position: relative;
-    width: 100%;
-}
 
-footer .redes {
-    margin-bottom: 10px;
-}
-
-footer .redes a {
-    color: #fff;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    margin: 40px 5px;
-    font-size: 20px;
-}
 
 .wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 .container {
     margin-top: 3%;
 
@@ -122,7 +101,7 @@ textarea {
     resize: vertical;
 }
 
-.button-cv{
+.button-cv {
     background-color: #cf0d0d;
     color: #fff;
     border: none;
@@ -133,7 +112,7 @@ textarea {
     width: 100%;
 }
 
-.container-error404{
+.container-error404 {
     margin-top: 15%;
     text-align: center;
 }
@@ -142,9 +121,10 @@ button:hover {
     background-color: #7c0f0f;
 }
 
-.error-title{
+.error-title {
     font-size: 48px;
 }
-.error-p{
+
+.error-p {
     font-size: 24px;
 }
