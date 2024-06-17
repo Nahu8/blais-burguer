@@ -19,60 +19,95 @@
 
 <body>
 
-    <div class="nav">
-        <nav>
-            <a href="../index.html">Home</a>
-            <a href="../htmls/productos.html">Productos</a>
-            <a href="../htmls/promociones.html">Promociones</a>
-            <a href="../htmls/sucursales.html">Sucursales</a>
-            <a href="../htmls/vegetariana.html">Menú Vegetariano</a>
+    <header class="w-100">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top w-100 ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-warning" href="../index.html">
+                    <img src="../imagenes/vegetariano/logo.png" alt="Logo" style="width: 60px; height: 60px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-warning active" aria-current="page" href="/index.html">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUCTOS
+                            </a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item text-warning" href="/htmls/productos.html">Nuestros productos</a></li>
+                                <li><a class="dropdown-item text-warning" href="/htmls/promociones.html">Promociones</a></li>
+                                <li><a class="dropdown-item text-warning" href="/htmls/nuevoproducto.html">Nueva hamburguesa</a></li>
+                                <li><a class="dropdown-item text-warning" href="/htmls/vegetariana.html">Menu vegetariano</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="./sucursales.html">SUCURSALES</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="nav-link ms-auto text-white" href="/htmls/error404.html">
+                    <i class="bi bi-cart3" style="font-size: 1.5rem;"></i>
+                </a>
+            </div>
         </nav>
-    </div>
-    <div class="contenedor-promos">
-        <br>
-        <h1>PROMOCIONES</h1>
-        <div class="container-grid-promo">
-            <div class="text-promos">
-                <h1>Nuggets y papas %50 OFF</h1>
-                <img class="img" src="../imagenes/promociones/Promo1.jpg" width="45%" height="auto">
-                <p>
-                    Porción para dos personas de nuggets con papas y adheresos servido en bandeja... y a mitad de
-                    precio! <br>
-                    <b>Promoción válida para el mes de Mayo.</b>
-                </p>
-                <button class="button-Promo">Agregar al carrito</button>
+    </header>
+    <br>
+    <main>
+        <div class="container">
+            <div class="row mx-auto justify-content-center">
+                <div class="col-md-5">
+                    <div class="card mb-2">
+                        <img src="../imagenes/promociones/Promo1.jpg" class="card-img-top img-fluid" alt="Nuggets y papas">
+                        <div class="card-body">
+                            <h5 class="card-title">Nuggets y papas 50% OFF</h5>
+                            <p class="card-text">Porción para dos personas de nuggets con papas y aderezos servido en bandeja.</p>
+                            <p class="card-text"><b>Promoción válida para el mes de Mayo.</b></p>
+                            <button class="btn btn-outline-success">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card mb-2">
+                        <img src="../imagenes/promociones/Promo_3.jpg" class="card-img-top img-fluid" alt="Hamgurguesa simple bacon">
+                        <div class="card-body">
+                            <h5 class="card-title">Hamburguesa simple bacon 3x2</h5>
+                            <p class="card-text">Hamburguesa con huevo, bacon mas tomate y lechuga. ¡Llevate 3 al precio de 2!</p>
+                          <p class="card-text"><b>Promoción válida durante el mes de Mayo los días de semana.</b></p>
+                          <button class="btn btn-outline-success">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card mb-2">
+                        <img src="../imagenes/promociones/Promo_4.jpg" class="card-img-top img-fluid" alt="Promo 2x1">
+                        <div class="card-body">
+                            <h5 class="card-title">Súper 2x1</h5>
+                            <p class="card-text">Sólo los miércoles podés llevarte este 2x1 en todas nuestras hamburguesas. ¿¡Te lo vas a perder!? </p>
+                          <p class="card-text"><b>Promoción válida para todo el año sólo lso días miércoles.</b></p>
+                          <button class="btn btn-outline-success">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="card mb-2">
+                        <img src="../imagenes/promociones/Tp_promo_cudi.png" class="card-img-top img-fluid" alt="Promo findes">
+                        <div class="card-body">
+                            <h5 class="card-title">Promo FINDES</h5>
+                            <p class="card-text">Porque sabemos que los fines son para disfrutar te ofrecemos venir a nuestro local y llevarte un 20% de descuento presentando el qr al tomar la orden.</p>
+                          <p class="card-text"><b>Promoción válida desde el mes de Mayo hasta Junio presentando el qr al finalizar la orden.</b></p>
+                          <button class="btn btn-outline-success">Descargar QR</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="text-promos">
-                <h1>Hamburguesa simple bacon 3x2</h1>
-                <img src="../imagenes/promociones/Promo_3.jpg" width="60%" height="auto">
-                <p> Hamburguesa con huevo, bacon mas tomate y lechuga. ¡Llevate 3 al precio de 2! <br>
-                    <b>Promoción válida durante el mes de Mayo los días de semana.</b>
-                </p>
-                <button class="button-Promo">Agregar al carrito</button>
-
-            </div>
-            <div class="text-promos">
-                <h1>Súper 2x1</h1>
-                <img src="../imagenes/promociones/Promo_4.jpg" width="60%" height="auto">
-                <p>
-                    Sólo los miércoles podés llevarte este 2x1 en todas nuestras hamburguesas. ¿¡Te lo vas a perder!?
-                    <br>
-                    <b>Promoción válida para todo el año sólo lso días miércoles.</b>
-                </p>
-                <button class="button-Promo">Agregar al carrito</button>
-            </div>
-            <div class="text-promos">
-                <h1>Promo FINDES</h1>
-                <img src="../imagenes/promociones/Tp_promo_cudi.png" width="40%" height="auto">
-                <p> Porque sabemos que los fines son para disfrutar te ofrecemos venir a nuestro local y llevarte un 20%
-                    de descuento presentando el qr al tomar la orden. <br>
-                    <b>Promoción válida desde el mes de Mayo hasta Junio presentando el qr al finalizar la orden.</b>
-                </p>
-                <button class="button-Promo">Descargar QR</button>
-            </div>
-
         </div>
-    </div>
+
+    </main>
+    
     <footer class="bg-black text-light pt-5 pb-4">
         <div class="container text-center text-md-start">
             <div class="row text-center text-md-start">
@@ -142,7 +177,10 @@
             </div>
         </div>
     </footer>
-
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
