@@ -10,7 +10,7 @@ body {
 }
 
 
-.nav a:hover {
+nav a:hover {
     background-color: #9b834e;
     font-size: 1.2em;
 }
@@ -39,7 +39,6 @@ body {
 }
 
 
-}
 .grid-item img {
     width: 100%;
     
