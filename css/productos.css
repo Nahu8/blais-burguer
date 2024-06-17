@@ -8,6 +8,7 @@ body {
     font-style: normal;
 }
 
+/*
 .nav {
     text-align: center;
     background-color: black;
@@ -27,7 +28,7 @@ body {
     transition: background-color 0.3s;
 }
 
-/*
+
 .container {
     margin-top: 50px;
     margin-bottom: 50px;
