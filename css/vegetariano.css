@@ -86,3 +86,19 @@ nav a:hover {
 .burguer-3 {
     margin-top: 10px
 }
+
+.titulo-principal {
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         2px  2px 0 #000;
+}
+
+.titulo-secundario {
+    text-shadow: 
+        -1px -1px 0 #4dca49,  
+         1px -1px 0 #4dca49,
+        -1px  1px 0 #4dca49,
+         2px  2px 0 #4dca49;
+}
