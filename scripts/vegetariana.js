@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${product.image}" alt="${product.name}" style="width: 50px; height: 50px;">
                 <span>${product.name}</span>
                 <span>$${product.price.toFixed(2)}</span>
-                <button class="btn btn-danger btn-sm" data-index="${index}">Remove</button>
+                <button class="btn btn-danger btn-sm" data-index="${index}">Eliminar</button>
             `;
             cartItemsContainer.appendChild(cartItem);
             total += product.price;
