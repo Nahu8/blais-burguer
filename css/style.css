@@ -9,7 +9,6 @@ body {
     color: #000;
 }
 
-
 nav a:hover {
     background-color: #9b834e;
     font-size: 1.2em;
@@ -21,8 +20,7 @@ nav a:hover {
 
 .img-principal {
     width: 100%;
-    height: 20%;
-    max-height: 10%;
+    height: auto;
     animation: slideUp 2s ease-in-out;
 }
 
@@ -31,33 +29,21 @@ nav a:hover {
         transform: translateY(100%);
         opacity: 0;
     }
-
     100% {
         transform: translateY(0);
         opacity: 1;
     }
 }
 
-
-.grid-item img {
-    width: 100%;
-    
-}
-.grid-item h1 {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    font-size: 1.5rem; /* Ajustar según sea necesario */
-}
 .grid-item {
     position: relative;
 }
-.grid-item img {
+
+.grid-item img, .img-principal, .img-index {
     width: 100%;
+    height: auto;
 }
+
 .grid-item h1 {
     position: absolute;
     bottom: 10px;
@@ -68,6 +54,87 @@ nav a:hover {
     font-size: 1.5rem; /* Ajustar según sea necesario */
 }
 
-.img-index{
+.img-index {
     height: 400px;
 }
+
+/* Estilos responsivos */
+
+
+@media (max-width: 767px) {
+    .container-fluid.p-0.mt-5 .row.g-0 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-item {
+        width: 100%;
+    }
+
+    .img-index {
+        height: auto;
+    }
+
+    .grid-item img {
+        height: auto;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .grid-item img {
+        height: auto;
+    }
+    .img-index {
+        height: auto;
+    }
+    .navbar-brand img {
+        width: 40px;
+        height: 40px;
+    }
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+    .carousel-caption p {
+        font-size: 0.875rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .grid-item img {
+        height: auto;
+    }
+    .img-index {
+        height: 300px;
+    }
+    .navbar-brand img {
+        width: 50px;
+        height: 50px;
+    }
+    .carousel-caption h5 {
+        font-size: 1.25rem;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .grid-item img {
+        height: 400px;
+    }
+    .img-index {
+        height: 400px;
+    }
+    .navbar-brand img {
+        width: 60px;
+        height: 60px;
+    }
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+    .carousel-caption p {
+        font-size: 1.25rem;
+    }
+}
+
